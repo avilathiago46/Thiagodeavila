@@ -1,11 +1,8 @@
-# Thiagodeavila
-
-
 package relogio;
 
 import java.util.Scanner;
 
-public class relogio {
+public class relogio2 {
 	
 	public static int retornaAnguloRelogio(int hora, int minuto) {
 		
@@ -14,7 +11,7 @@ public class relogio {
 		angulo1 = hora*30;
 		angulo2 = minuto*6;
 		angulo3 = minuto*0.5;
-		angulo4 = (angulo1-angulo2) - angulo3;
+		angulo4 = (angulo2-angulo1) - angulo3;
 		
 		if (hora > 12) {
 			angulo4 = 360 - angulo4;
